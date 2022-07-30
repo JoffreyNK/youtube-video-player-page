@@ -212,7 +212,7 @@ In the JavaScript file, first we get a reference to the `container` div that alr
 
 Keep in mind that the JavaScript does _not_ alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
 
-<div class="lesson-note" markdown="1">
+<div id="important-note" class="lesson-note" markdown="1">
 
 Your JavaScript, for the most part, is run whenever the JS file is run, or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 
@@ -394,7 +394,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#dom---document-object-model">What is the DOM?</a>
+* <a class="knowledge-check-link" href="#dom-document-object-model">What is the DOM?</a>
 * <a class="knowledge-check-link" href="#targeting-nodes-with-selectors">How do you target the nodes you want to work with?</a>
 * <a class="knowledge-check-link" href="#element-creation">How do you create an element in the DOM?</a>
 * <a class="knowledge-check-link" href="#append-elements">How do you add an element to the DOM?</a>
